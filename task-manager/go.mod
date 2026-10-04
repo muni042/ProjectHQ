@@ -7,6 +7,7 @@ require (
 	github.com/go-kratos/aip-go/ents v0.0.0-20260901003907-1ab5471e605b
 	github.com/go-sql-driver/mysql v1.10.0
 	github.com/google/wire v0.6.0
+	github.com/lib/pq v1.12.3
 	go.einride.tech/aip v0.86.3
 	go.uber.org/automaxprocs v1.6.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20260519071638-aa98bba5eb94

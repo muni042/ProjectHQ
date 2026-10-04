@@ -7,13 +7,13 @@
 package main
 
 import (
+	"github.com/go-kratos/kratos/v3"
+	"log/slog"
 	"task-manager/internal/biz"
 	"task-manager/internal/conf"
 	"task-manager/internal/data"
 	"task-manager/internal/server"
 	"task-manager/internal/service"
-	"github.com/go-kratos/kratos/v3"
-	"log/slog"
 )
 
 import (

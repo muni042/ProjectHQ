@@ -6,13 +6,13 @@ import (
 	"context"
 	"fmt"
 	"math"
+	"task-manager/internal/data/ent/predicate"
+	"task-manager/internal/data/ent/todo"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"task-manager/internal/data/ent/predicate"
-	"task-manager/internal/data/ent/todo"
 	"github.com/google/uuid"
 )
 

@@ -3,11 +3,11 @@
 package todo
 
 import (
+	"task-manager/internal/biz"
+	"task-manager/internal/data/ent/predicate"
 	"time"
 
 	"entgo.io/ent/dialect/sql"
-	"task-manager/internal/biz"
-	"task-manager/internal/data/ent/predicate"
 	"github.com/google/uuid"
 )
 

@@ -3,11 +3,11 @@
 package ent
 
 import (
-	"time"
-
 	"task-manager/internal/biz"
 	"task-manager/internal/data/ent/schema"
 	"task-manager/internal/data/ent/todo"
+	"time"
+
 	"github.com/google/uuid"
 )
 

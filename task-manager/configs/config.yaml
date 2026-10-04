@@ -5,14 +5,14 @@ server:
   grpc:
     addr: 0.0.0.0:9000
     timeout: 1s
+
 data:
   database:
-    driver: mysql
-    source: ${DATABASE_SOURCE:root:root@tcp(127.0.0.1:3306)/test?timeout=5s&parseTime=True&loc=Local&charset=utf8mb4}
-    # Development conveniences. Keep both false in production and apply schema
-    # changes as a separate reviewed step.
+    driver: postgres
+    source: ${DATABASE_SOURCE:host=127.0.0.1 port=5432 user=postgres password=postgres dbname=project_hq sslmode=disable}
     debug: true
     auto_migrate: true
+
   redis:
     addr: ${REDIS_ADDR:127.0.0.1:6379}
     read_timeout: 0.2s

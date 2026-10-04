@@ -7,13 +7,13 @@ import (
 	"errors"
 	"fmt"
 	"sync"
+	"task-manager/internal/biz"
+	"task-manager/internal/data/ent/predicate"
+	"task-manager/internal/data/ent/todo"
 	"time"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"task-manager/internal/biz"
-	"task-manager/internal/data/ent/predicate"
-	"task-manager/internal/data/ent/todo"
 	"github.com/google/uuid"
 )
 

@@ -9,8 +9,9 @@ import (
 	// required by schema hooks.
 	_ "task-manager/internal/data/ent/runtime"
 
-	"entgo.io/ent/dialect/sql/schema"
 	"task-manager/internal/data/ent/migrate"
+
+	"entgo.io/ent/dialect/sql/schema"
 )
 
 type (

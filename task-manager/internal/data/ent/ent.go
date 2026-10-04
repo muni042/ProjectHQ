@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"reflect"
 	"sync"
+	"task-manager/internal/data/ent/todo"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
-	"task-manager/internal/data/ent/todo"
 )
 
 // ent aliases to avoid import conflicts in user's code.
